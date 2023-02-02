@@ -6,28 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/style.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Hello, world!</title>
   </head>
   <body>
-
-    <!-- New York Times Search -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">New York Times Search</h1>
         </div>
       </div>
-    
-    <!-- Search Parameters -->
+
       <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="exampleFormControlInput1">Search Term:</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
+          <label for="exampleFormControlSelect1">Number of records</label>
           <select class="form-control" id="exampleFormControlSelect1">
             <option>1</option>
             <option>2</option>
@@ -37,18 +33,12 @@
           </select>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
+            <label for="exampleFormControlTextarea1">Start Year (Optional)</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+          </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="exampleFormControlTextarea1">End Year (Optional)</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
         </div>
       </form>
 
